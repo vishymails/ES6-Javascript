@@ -24,6 +24,6 @@ class ColorPoint extends Point {
     }
 }
 
-console.log('The first point is ' + new Point(2, 10))
-console.log('The second point is ' + new ColorPoint(2, 10, 'green'))
-console.log('The default color point is ' + ColorPoint.default())
+console.log('The first point is :' + new Point(2, 10))
+console.log('The second point is :' + new ColorPoint(2, 10, 'green'))
+console.log('The default color point is : ' + ColorPoint.default())
